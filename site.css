@@ -357,7 +357,7 @@ nav img{
     text-align: left;
     margin-top: 5px;
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -375,8 +375,7 @@ nav img{
         font-size: 15px;
     }
     .hero-btn{
-        margin-top: 50px;
-        margin-left: 115px;
+        margin-left: 110px;
     }
     .nav-links ul li a{
         color: #fff;
@@ -421,6 +420,9 @@ nav img{
     p{
         font-size: 15px;
     }
+    .collection{
+        min-height: 290vh;
+    }
     .collection h1{
         font-size: 40px;
     }
@@ -463,6 +465,7 @@ nav img{
     }
     .about{
         margin-top: 0px;
+        min-height: 120vh;
     }
     .about h1{
         font-size: 40px;
@@ -492,7 +495,8 @@ nav img{
         border-radius: 200px;
     }
     .brand{
-        min-height: 180vh;
+        min-height: 160vh;
+        margin-top: -30px;
     }
     .brand h1{
         font-size: 40px;
@@ -505,5 +509,15 @@ nav img{
     }
     .brand-col img{
         width: 50%;
+    }
+    .testimonial h1{
+        font-size: 40px;
+    }
+    .testimonial p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .testimonial h3{
+        font-size: 25px;
     }
 }
