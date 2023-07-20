@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: ci;
+}
+
+/* HOME PAGE */
+.header{
+    min-height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(35, 12, 47, 0.845),rgba(9, 0, 14, 0.599),#000000c4),url(pexels-tembela-bohle-1884584.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 25px 35px;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+} 
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 30px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box h1{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-size: 60px;
+}
+.text-box p{
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 650px;
+    background-color: transparent;
+}
+
+.hero-btn:hover{
+    border: 1px solid #ffffff;
+    background: #f44336;
+    transition: 1s;
+}
+
+.mid, .low{
+    display: none;
+}
+
+
+/* COLLECTION */
+.collection{
+    background-image: linear-gradient(rgba(2, 0, 3, 0.719),#033259b4), url(pexels-victoria-rain-3315286.jpg);
+    width: 100%;
+    min-height: 150vh;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.collection h1{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.collection p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.collection h3{
+    margin-top: 1px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+.collection h3:hover{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: #f44336;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.row{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-col{
+    flex-basis: 30%;
+    background: #00000057;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.collection-col img{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.ro{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.collection-co{
+    flex-basis: 30%;
+    background: #00000057;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.collection-co img{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.collection-co p{
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+
+/* store */
+
+.store{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    background: linear-gradient(#033259e4,#2d02349f,#270c77b4,#130030), url(city.jpg) center;
+    min-height: 200vh;
+}
+.store h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.store p{
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+.bro{
+    display: flex;
+    margin: auto;
+}
+.store-col{
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.store-col img{
+    width: 100%;
+    padding: 60px;
+    align-items: center;
+}
+.store-col h2{
+    margin-left: 30px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.store-col p{
+    margin-left: 25px;
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-top: 5px;
+}
+.store-col h2:hover{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: #f44336;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/* Brand Sponsorships */
+.brand{
+    background: linear-gradient(#1b034090,hsla(230, 94%, 88%, 0.871)), url(versbg.jpg) center;
+    width: 100%;
+    min-height: 130vh;
+    text-align: center;
+    padding-top: 60px;
+    color: #fff;
+}
+.brand h1{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+.brand p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.brand-col{
+    flex-basis: 30%;
+    background: #00000057;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.brand-col img{
+    border-radius: 5px;
+    width: 80%;
+}
+.brand-col:hover{
+    background: #f44336;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+/* ABOUT US */
+
+.about{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    background: linear-gradient(#7c7af495,#fffffdfa);
+    min-height: 160vh;
+}
+.about h1{
+    font-size: 60px;
+}
+.about p{
+    font-size: 20px;
+}
+.about-us{
+    display: flexbox;
+}
+.about-us img{
+    margin-top: 80px;
+    width: 10%;
+    border-radius: 90px;
+}
+.about-us1 img{
+    margin-top: 80px;
+    width: 10%;
+    border-radius: 200px;
+}
+.about-us h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.about-us p{
+    margin-top: 20px;
+}
+.about-us1 h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.about-us1 p{
+    margin-top: 20px;
+}
+
+
+/* TESTIMONIALS */
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonial h1{
+    text-align: center;
+    font-size: 60px;
+}
+.testimonial p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.testimonial h3{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.testimonial-col p{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+/* Phone Display */
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 40px;
+    }
+    .text-box p{
+        font-size: 15px;
+    }
+    .hero-btn{
+        margin-top: 50px;
+        margin-left: 115px;
+    }
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;       
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 95.5vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        padding-top: 40px;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul li{
+        padding: 26px;
+    }
+    .mid{
+        display: block;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    .low{
+        display: block;
+        font-size: 30px;
+        margin-left: 150px;
+        padding-top: 1px;
+        padding-bottom: 50px;
+        cursor: pointer;
+    }
+    .row{
+        display: inline-block;
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .collection h1{
+        font-size: 40px;
+    }
+    .collection p{
+        font-size: 15px;
+    }
+    .collection-col {
+        margin-bottom: 20px;
+    }
+    .ro{
+        display: block;
+        margin-top: 0px;
+    }
+    .collection-co {
+        margin-bottom: 20px;
+    }
+    .collection-co p{
+        margin-bottom: 5px;
+    }
+    .store{
+        margin-top: -20px;
+        background: linear-gradient(#033259e4,#2d02349f,#270c77b4,#e5d8ffdb), url(city.jpg) left;
+    }
+    .store h1{
+        font-size: 40px;
+    }
+    .store p{
+        font-size: 15px;
+    }
+    .bro{
+        display: block;
+        padding: auto;
+        margin-right: 70px;
+    }
+    .store-col h2{
+        margin-left: 60px;
+    }
+    .store-col p{
+        margin-left: 60px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    .about-us img{
+        width: 30%;
+    }
+    .about-us h2{
+        font-size: 30px;
+    }
+    .about-us p{
+        font-size: 19px;
+        padding: 20px;
+        margin-top: -5px;
+    }
+    .about-us img{
+        margin-top: 80px;
+        width: 30%;
+        border-radius: 90px;
+    }
+    .about-us1 img{
+        margin-top: 80px;
+        width: 30%;
+        border-radius: 200px;
+    }
+    .brand{
+        min-height: 180vh;
+    }
+    .brand h1{
+        font-size: 40px;
+    }
+    .brand p{
+        font-size: 15px;
+    }
+    .brand-col {
+        margin-bottom: 20px;
+    }
+    .brand-col img{
+        width: 50%;
+    }
+}
